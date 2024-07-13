@@ -16,3 +16,137 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/khaled-taha/Restaurant-Browsing-and-Ordering-System/assets/61011535/1aa044fa-b534-4c91-b221-19c5f44b7470)
 
+
+## Features
+
+### Cart Management - Functions
+* <b> Database design </b>
+  - Cart
+  - CartItem
+* <b> API endpoints </b>
+  - Add to cart
+  - Modify cart
+  - View cart
+  - Clear all cart
+  - Remove the item from the cart
+  - Checkout
+  - Update Quantities
+
+### User Registration & Authentication - Functions
+* Database design
+    - user
+    - role
+    - group
+    - user_group
+    - group_role
+* API endpoints
+  - Sign up
+  - Login
+  - Forget Password
+  - Email verification or OTP verification
+  - User/customer Profile
+  - Logout
+  - Social Media Authentication
+  - Enable or Disable account
+* Role-based & Permissions
+
+### Restaurant / Menu Management - Functions
+* Database design
+  - restuarnt_category
+  - restaurant
+  - restuarnt_details
+  - menu
+  - menu-category
+  - menu_item
+  - ingradient
+  - review
+* API endpoints
+  - Add restaurant
+  - Update restaurant
+  - Enable/ Disable
+  - View all restaurants [customer]
+  - Create a new menu
+  - Update menu
+  - Delete Menu
+  - View menu History list [Restaurant]
+  - View List of menus
+  - Search Restaurant [Filters]
+  - Search Menu Items [Filters]
+  - Top Rating Restaurants
+  -  Restaurants Recommendations
+
+### Order Management - Functions
+* Database design
+  - order
+  - order_details
+  - order_history
+  - order_status
+  - order_archive
+  - Review Orders
+* API endpoints
+  - Place order
+  - Orders canceled by customers or restaurants
+  - Order status update [Tracking]
+  - Order History [Customers, restaurants ]
+  - Order Summary
+  - Order Details
+* Order confirmation by email / SMS
+* Notify Customer When order status update
+
+### Customer Management - Functions
+* Database design
+  - customer_inquiry
+  - address
+  - payment_setting
+  - Recommendations items
+* API endpoints
+  - List of Order History
+  - Current order status tracking
+  - Prefered Payment settings [VISA , CACH ON DELIVERY]
+  - Address Management [ Multiple Delivery address]
+  - Account Deactivate
+  - Rating & comments
+* Customer support [chat]
+
+### Payment Integration - Functions
+* Database design
+  - transaction
+  - transaction_details
+  - payment_integration_type
+  - payment_integration_configuartion
+  - transaction_status
+  - Transaction_History
+  - Auditing
+* API endpoints
+  - Payment integration With 3rd Party
+  - Multiple payment methods
+  - View Payment Transactions
+* Payment Error Handling
+* Payment Verification and Validation
+* Generate Payment Receipt
+* Auditing Payment integration
+* Payment status
+
+### Dashboard [Restaurants, System]
+* API endpoints - System
+  - Count Restaurants
+  - Count Customers
+  - Count Active Customers
+  - Daily count Order
+  - Total count Order
+  - Daily Cancelled Order
+  - Total Cancelled Order
+  - Daily amount of transactions
+  - Total amount of transactions
+  - Generate Daily Transactions Report
+  - Generate Monthly Transactions Report
+* API endpoints - Restaurant
+  - Daily count Order Per Restaurant
+  - Daily count Order not Delivered per Restaurant
+  - Total count Order Per Restaurant
+  - Daily Cancelled Order Per Restaurant
+  - Total Cancelled Order Per Restaurant
+  - Daily amount of transactions Per Restaurant
+  - Total amount of transactions Per Restaurant
+  - Generate Daily Transactions Report Per Restaurant
+  - Generate Monthly Transactions Report Per Restaurant
