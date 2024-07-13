@@ -187,3 +187,17 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 <hr>
 
+### User Registration & Authentication - Functions
+
+#### Sign up
+
+![image](https://github.com/user-attachments/assets/7d760e9f-4c28-4c5e-bcb9-994007a2e34e)
+
+#### Login
+
+![image](https://github.com/user-attachments/assets/8583fb03-23a7-4401-8dc0-b6b4773080e2)
+
+#### Forget Password
+
+![image](https://github.com/user-attachments/assets/bb04d0bd-d674-4570-abba-32ba4b180675)
+
