@@ -150,3 +150,37 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Total amount of transactions Per Restaurant
   - Generate Daily Transactions Report Per Restaurant
   - Generate Monthly Transactions Report Per Restaurant
+ 
+  <hr><hr>
+
+  ## Flowchart
+
+  ### Cart Management - Functions
+  - Add to cart
+
+  ![image](https://github.com/user-attachments/assets/c168f8ac-0760-4921-82cf-06495d860482)
+
+  - Modify cart
+
+ ![image](https://github.com/user-attachments/assets/3d73455f-b942-4858-920e-0001d59013a9)
+
+  - View cart
+
+![image](https://github.com/user-attachments/assets/a10ec597-4753-4c6d-9ca2-0993ec271ef7)
+
+  - Clear all cart
+
+![image](https://github.com/user-attachments/assets/eae367db-f7e5-4027-91aa-9a74f0677fb4)
+
+  - Remove the item from the cart
+
+![image](https://github.com/user-attachments/assets/971b71cb-0cac-4f60-b8c8-0f1c82711967)
+
+  - Checkout
+
+![image](https://github.com/user-attachments/assets/65e42f05-2c33-430b-9078-ef9f3c9169f4)
+
+  - Update Quantities
+
+![image](https://github.com/user-attachments/assets/6117f1b7-b267-4cdd-abbc-78f0f7be256e)
+
