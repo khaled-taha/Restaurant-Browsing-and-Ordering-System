@@ -315,3 +315,19 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 ![image](https://github.com/user-attachments/assets/b38c68c2-24f8-475e-9fb6-239d8ca6dc96)
 
 <hr><hr>
+
+### Payment Integration - Functions
+
+#### Payment integration With 3rd Party
+
+![image](https://github.com/user-attachments/assets/3b0c6e3d-f935-4c32-a04e-b43909a79442)
+
+#### Multiple payment methods
+
+![image](https://github.com/user-attachments/assets/f80961eb-cd05-4e37-9ffd-a76e3a91b62e)
+
+#### View Payment Transactions
+
+![image](https://github.com/user-attachments/assets/5da54fb1-5e8a-436d-84c7-9c27bed7d3d0)
+
+<hr><hr>
