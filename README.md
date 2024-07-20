@@ -1,16 +1,16 @@
 # Restaurant-Browsing-and-Ordering-System
-The Restaurant Browsing and Ordering System is a comprehensive application designed to facilitate seamless browsing, ordering, and management of restaurant services. This system caters to both end-users and administrators, providing an intuitive interface for customers and robust management tools for restaurant owners.
+Welcome to the **Restaurant Browsing and Ordering System**—an all-encompassing solution designed to streamline the browsing, ordering, and management processes for restaurant services. Our system is crafted to deliver an intuitive experience for both customers and administrators, offering a seamless and efficient way to handle restaurant operations.
 
 ## Features
-* Cart Management
-* User Registration & Authentication
-* Restaurant Management
-* Menu Management
-* Order Management
-* Customer Management
-* Payment Integration
-* Dashboard [Restaurants, System]
-* Offers
+* **Cart Management**
+* **User Registration & Authentication**
+* **Restaurant Management**
+* **Menu Management**
+* **Order Management**
+* **Customer Management**
+* **Payment Integration**
+* **Dashboard [Restaurants, System]**
+* **Offers**
 
 ## Use Case Diagrams
 
@@ -20,10 +20,10 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 ## Features
 
 ### Cart Management - Functions
-* <b> Database design </b>
+* **Database design**
   - Cart
   - CartItem
-* <b> API endpoints </b>
+* **API endpoints**
   - Add to cart
   - Modify cart
   - View cart
@@ -33,13 +33,13 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Update Quantities
 
 ### User Registration & Authentication - Functions
-* Database design
+* **Database design**
     - user
     - role
     - group
     - user_group
     - group_role
-* API endpoints
+* **API endpoints**
   - Sign up
   - Login
   - Forget Password
@@ -48,19 +48,19 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Logout
   - Social Media Authentication
   - Enable or Disable account
-* Role-based & Permissions
+* **Role-based & Permissions**
 
 ### Restaurant / Menu Management - Functions
-* Database design
+* **Database design**
   - restuarnt_category
   - restaurant
   - restuarnt_details
   - menu
   - menu-category
   - menu_item
-  - ingradient
+  - ingredient
   - review
-* API endpoints
+* **API endpoints**
   - Add restaurant
   - Update restaurant
   - Enable/ Disable
@@ -76,14 +76,14 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Restaurants Recommendations
 
 ### Order Management - Functions
-* Database design
+* **Database design**
   - order
   - order_details
   - order_history
   - order_status
   - order_archive
   - Review Orders
-* API endpoints
+* **API endpoints**
   - Place order
   - Orders canceled by customers or restaurants
   - Order status update [Tracking]
@@ -94,22 +94,22 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 * Notify Customer When order status update
 
 ### Customer Management - Functions
-* Database design
+* **Database design**
   - customer_inquiry
   - address
   - payment_setting
   - Recommendations items
-* API endpoints
+* **API endpoints**
   - List of Order History
   - Current order status tracking
-  - Prefered Payment settings [VISA , CACH ON DELIVERY]
+  - Prefered Payment settings [VISA, CACH ON DELIVERY]
   - Address Management [ Multiple Delivery address]
   - Account Deactivate
   - Rating & comments
 * Customer support [chat]
 
 ### Payment Integration - Functions
-* Database design
+* **Database design**
   - transaction
   - transaction_details
   - payment_integration_type
@@ -117,7 +117,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - transaction_status
   - Transaction_History
   - Auditing
-* API endpoints
+* **API endpoints**
   - Payment integration With 3rd Party
   - Multiple payment methods
   - View Payment Transactions
@@ -128,7 +128,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 * Payment status
 
 ### Dashboard [Restaurants, System]
-* API endpoints - System
+* **API endpoints - System**
   - Count Restaurants
   - Count Customers
   - Count Active Customers
@@ -140,7 +140,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Total amount of transactions
   - Generate Daily Transactions Report
   - Generate Monthly Transactions Report
-* API endpoints - Restaurant
+* **API endpoints - Restaurant**
   - Daily count Order Per Restaurant
   - Daily count Order not Delivered per Restaurant
   - Total count Order Per Restaurant
@@ -149,39 +149,39 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Daily amount of transactions Per Restaurant
   - Total amount of transactions Per Restaurant
   - Generate Daily Transactions Report Per Restaurant
-  - Generate Monthly Transactions Report Per Restaurant
- 
+  - Generate Monthly Transactions Report Per Restaurant 
   <hr><hr>
+
 
 ## Flowchart
 
 ### Cart Management - Functions
 
-#### Add to cart
+- [ ]  **Add to cart**
 
   ![image](https://github.com/user-attachments/assets/c168f8ac-0760-4921-82cf-06495d860482)
 
-#### Modify cart
+- [ ]  **Modify cart**
 
  ![image](https://github.com/user-attachments/assets/3d73455f-b942-4858-920e-0001d59013a9)
 
-#### View cart
+- [ ]  **View cart**
 
 ![image](https://github.com/user-attachments/assets/a10ec597-4753-4c6d-9ca2-0993ec271ef7)
 
-#### Clear all cart
+- [ ]  **Clear all cart**
 
 ![image](https://github.com/user-attachments/assets/eae367db-f7e5-4027-91aa-9a74f0677fb4)
 
-#### Remove the item from the cart
+- [ ]  **Remove the item from the cart**
 
 ![image](https://github.com/user-attachments/assets/971b71cb-0cac-4f60-b8c8-0f1c82711967)
 
-#### Checkout
+- [ ]  **Checkout**
 
 ![image](https://github.com/user-attachments/assets/65e42f05-2c33-430b-9078-ef9f3c9169f4)
 
-#### Update Quantities
+- [ ]  **Update Quantities**
 
 ![image](https://github.com/user-attachments/assets/6117f1b7-b267-4cdd-abbc-78f0f7be256e)
 
@@ -189,72 +189,71 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### User Registration & Authentication - Functions
 
-#### Sign up
+- [ ]  **Sign up**
 
 ![image](https://github.com/user-attachments/assets/7d760e9f-4c28-4c5e-bcb9-994007a2e34e)
 
-#### Login
+- [ ]  **Login**
 
 ![image](https://github.com/user-attachments/assets/8583fb03-23a7-4401-8dc0-b6b4773080e2)
 
-#### Forget Password
+- [ ]  **Forget Password**
 
 ![image](https://github.com/user-attachments/assets/bb04d0bd-d674-4570-abba-32ba4b180675)
-
 
 <hr>
 
 ### Restaurant / Menu Management - Functions
 
-#### Add restaurant
+- [ ]  **Add restaurant**
 
 ![image](https://github.com/user-attachments/assets/7175e9e3-7e50-4ca5-be0b-c1929bb6cd36)
 
-#### Update restaurant
+- [ ]  **Update restaurant**
 
 ![image](https://github.com/user-attachments/assets/eacc2e31-e7e6-40a7-a184-b5be9e70be5f)
 
-#### Enable/ Disable
+- [ ]  **Enable/ Disable**
 
 ![image](https://github.com/user-attachments/assets/a26f237e-f3d8-4f26-abd2-d35d3c881db1)
 
-#### View all restaurants [customer]
+- [ ]  **View all restaurants [customer]**
 
 ![image](https://github.com/user-attachments/assets/c935d23d-7477-4a82-9f8a-7d6f577f3841)
 
-#### Create a new menu
+- [ ]  **Create a new menu**
 
 ![image](https://github.com/user-attachments/assets/8d025e0f-4b4a-4f54-a8dd-55f6f2cb330e)
 
-#### Update menu
+- [ ] **Update menu**
 
 ![image](https://github.com/user-attachments/assets/cdc06f73-18e5-4373-aa10-7c22f26298e9)
 
-#### Delete Menu
+- [ ]  **Delete Menu**
 
 ![image](https://github.com/user-attachments/assets/c4a25753-363b-48bf-847e-406e6427c480)
 
-#### View menu History list [Restaurant]
+- [ ]  **View menu History list [Restaurant]**
 
 ![image](https://github.com/user-attachments/assets/a7f2594e-79fd-473d-a595-a83eb315a5d7)
 
-#### View List of menus
+- [ ]  **View List of menus**
 
 ![image](https://github.com/user-attachments/assets/f1a07117-97f8-47ee-930f-7d89d15065c7)
 
-#### Search Restaurant [Filters]
+- [ ]  **Search Restaurant [Filters]**
 
 ![image](https://github.com/user-attachments/assets/247a088c-ab71-425c-9320-2607769a4432)
 
-#### Search Menu Items [Filters]
+- [ ]  **Search Menu Items [Filters]**
 
 ![image](https://github.com/user-attachments/assets/bb8930d3-52a8-42b6-bbe0-0001e3930bdb)
 
-#### Top Rating Restaurants
+- [ ]  **Top Rating Restaurants**
 
 ![image](https://github.com/user-attachments/assets/97869a48-9b9a-4494-a2a8-64b59456632c)
 
-#### Restaurants Recommendations
+- [ ]  **Restaurants Recommendations**
 
 ![image](https://github.com/user-attachments/assets/3847e021-a0eb-475c-8cbb-ddbf1c609f9e)
 
@@ -262,27 +261,27 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Order Management - Functions
 
-#### Place order
+- [ ]  **Place order**
 
 ![image](https://github.com/user-attachments/assets/1ed1148e-faa6-449e-a3ff-1c9d9e48989b)
 
-#### Orders canceled by customers or restaurants
+- [ ]  **Orders canceled by customers or restaurants**
 
 ![image](https://github.com/user-attachments/assets/ca79c782-577b-4aba-8379-2c68e9adfc55)
 
-#### Order status update [Tracking]
+- [ ]  **Order status update [Tracking]**
 
 ![image](https://github.com/user-attachments/assets/d068a027-876a-4283-b05d-baa5e2d24f7c)
 
-#### Order History [Customers, restaurants ]
+- [ ]  **Order History [Customers, restaurants ]**
 
 ![image](https://github.com/user-attachments/assets/67e95969-fe8a-45c8-96ee-900a07505609)
 
-#### Order Summary
+- [ ]  **Order Summary**
 
 ![image](https://github.com/user-attachments/assets/3ec7df7d-ab35-4a5d-ae3b-e0255b4570e2)
 
-#### Order Details
+- [ ]  **Order Details**
 
 ![image](https://github.com/user-attachments/assets/bef294a2-d1b4-40e2-bd53-8cf440867588)
 
@@ -290,27 +289,27 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Customer Management - Functions
 
-#### List of Order History
+- [ ]  **List of Order History**
 
 ![image](https://github.com/user-attachments/assets/5ece56a3-a2a6-49b5-9233-7ecca300d367)
 
-#### Current order status tracking
+- [ ]  **Current order status tracking**
 
 ![image](https://github.com/user-attachments/assets/232dbe0a-0f3a-4fe7-8a5a-f8f7c341593d)
 
-#### Prefered Payment settings [VISA, CACH ON DELIVERY]
+- [ ]  **Preferred Payment settings [VISA, CACH ON DELIVERY]**
 
 ![image](https://github.com/user-attachments/assets/ef01e096-b044-494a-98e9-5cfd1792af26)
 
-#### Address Management [ Multiple Delivery address]
+- [ ] **Address Management [ Multiple Delivery address]**
 
 ![image](https://github.com/user-attachments/assets/358e6525-f65d-4343-a429-99670a8a5532)
 
-#### Account Deactivate
+- [ ]  **Account Deactivate**
 
 ![image](https://github.com/user-attachments/assets/8d54a0ad-263c-4d59-b009-78688edf641e)
 
-#### Rating & comments
+- [ ]  **Rating & comments**
 
 ![image](https://github.com/user-attachments/assets/b38c68c2-24f8-475e-9fb6-239d8ca6dc96)
 
@@ -318,11 +317,11 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Payment Integration - Functions
 
-#### Payment integration With 3rd Party
+- [ ]  **Payment integration With 3rd Party**
 
 ![image](https://github.com/user-attachments/assets/3b0c6e3d-f935-4c32-a04e-b43909a79442)
 
-#### Multiple payment methods
+- [ ]  **Multiple payment methods**
 
 ![image](https://github.com/user-attachments/assets/f80961eb-cd05-4e37-9ffd-a76e3a91b62e)
 
@@ -332,31 +331,31 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Cart Management - Functions
 
-#### Add to cart
+- [ ]  **Add to cart**
 
 ![image](https://github.com/user-attachments/assets/8d8784b7-456d-44ee-9e9b-f69a2db59d90)
 
-#### Modify cart
+- [ ]  **Modify cart**
 
 ![image](https://github.com/user-attachments/assets/fabebf1b-0757-47ff-9102-d254908ad487)
 
-#### View cart
+- [ ]  **View cart**
 
 ![image](https://github.com/user-attachments/assets/4869d2a0-fe35-4b0d-aac4-55e5a3f374a3)
 
-#### Clear all cart
+- [ ]  **Clear all cart**
 
 ![image](https://github.com/user-attachments/assets/92304ad2-5825-47ab-aff1-f55d34065063)
 
-#### Remove the item from the cart
+- [ ]  **Remove the item from the cart**
 
 ![image](https://github.com/user-attachments/assets/ce32f04c-25d6-411f-a1c4-406846eec52c)
 
-#### Checkout
+- [ ]  **Checkout**
 
 ![image](https://github.com/user-attachments/assets/1033435f-9222-44f3-b065-2a6a377e111f)
 
-#### Update Quantities
+- [ ]  **Update Quantities**
 
 ![image](https://github.com/user-attachments/assets/b4d62f32-b58e-454d-9a75-1d21c55bee42)
 
@@ -365,15 +364,15 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### User Registration & Authentication - Functions
 
-#### Sign up
+- [ ]  **Sign up**
 
 ![image](https://github.com/user-attachments/assets/f2ebf604-10de-4431-a569-f8baba047ac7)
 
-#### Login
+- [ ]  **Login**
 
 ![image](https://github.com/user-attachments/assets/1e12c5fd-7afa-462a-b922-6b1148c6f86d)
 
-#### Forget Password
+- [ ]  **Forget Password**
 
 ![image](https://github.com/user-attachments/assets/db833934-96db-4e8c-a422-fc37645d8a4b)
 
@@ -381,51 +380,51 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Restaurant / Menu Management - Functions
 
-#### Add restaurant
+- [ ]  **Add restaurant**
 
 ![image](https://github.com/user-attachments/assets/6bc5ba6e-f4fb-4c39-a1b1-383f9fd441ac)
 
-#### Update restaurant
+- [ ]  **Update restaurant**
 
 ![image](https://github.com/user-attachments/assets/877c0938-c4a7-4674-89d5-ee8a06bc5a68)
 
-#### Enable/ Disable
+- [ ]  **Enable/ Disable**
 
 ![image](https://github.com/user-attachments/assets/2453e01b-0a8e-4b9e-9ebe-942d581807bc)
 
-#### View all restaurants [customer]
+- [ ]  **View all restaurants [customer]**
 
 ![image](https://github.com/user-attachments/assets/a737e21a-cab5-4e92-a135-bea8fc50d4bb)
 
-#### Create a new menu
+- [ ]  **Create a new menu**
 
 ![image](https://github.com/user-attachments/assets/40f49840-91dd-43c3-ada4-b3055d92de49)
 
-#### Update menu
+- [ ]  **Update menu**
 
 ![image](https://github.com/user-attachments/assets/025f98ef-3c22-4926-98ee-a83a2f1ee9dd)
 
-#### Delete Menu
+- [ ]  **Delete Menu**
 
 ![image](https://github.com/user-attachments/assets/7b193c17-e3de-4043-a32f-e723c3263467)
 
-#### View menu History list [Restaurant]
+- [ ]  **View menu History list [Restaurant]**
 
 ![image](https://github.com/user-attachments/assets/ae3dbdb8-056b-4a7b-9a29-b78308d1d194)
 
-#### View List of menus
+- [ ]  **View List of menus**
 
 ![image](https://github.com/user-attachments/assets/dc2d7775-ba03-4c93-904c-91b76c8e8fdb)
 
-#### Search Restaurant [Filters]
+- [ ]  **Search Restaurant [Filters]**
 
 ![image](https://github.com/user-attachments/assets/7f55ca97-361a-40fd-b0d9-9e70e633841d)
 
-#### Search Menu Items [Filters]
+- [ ]  **Search Menu Items [Filters]**
 
 ![image](https://github.com/user-attachments/assets/7323831f-a04d-4330-8c4c-59af1f174e6f)
 
-#### Top Rating Restaurants
+- [ ] **Top Rating Restaurants**
 
 ![image](https://github.com/user-attachments/assets/19c72d21-1312-4702-8e55-118ce91b0ae1)
 
@@ -436,15 +435,16 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 <hr><hr>
 
 ### Order Management - Functions
-#### Place order
+
+- [ ]  **Place order**
 
 ![image](https://github.com/user-attachments/assets/98d6324d-5043-4718-acb3-9f101ab6301b)
 
-#### Orders canceled by customers or restaurants
+- [ ]  **Orders canceled by customers or restaurants**
 
 ![image](https://github.com/user-attachments/assets/1505f131-13a4-467b-bba0-dfb7dd4a52bc)
 
-#### Order status update [Tracking]
+- [ ]  **Order status update [Tracking]**
 
 ![image](https://github.com/user-attachments/assets/9a11fc2d-f988-4dd6-899e-2857282d7970)
 
@@ -452,27 +452,27 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Customer Management - Functions
 
-#### List of Order History
+- [ ]  **List of Order History**
 
 ![image](https://github.com/user-attachments/assets/b30fc5de-b55c-42a2-b55e-c26cf00def09)
 
-#### Current order status tracking
+- [ ]  **Current order status tracking**
 
 ![image](https://github.com/user-attachments/assets/88815695-5344-4d0e-b3dd-75a35ccafd4a)
 
-#### Prefered Payment settings [VISA, CACH ON DELIVERY]
+- [ ] **Prefered Payment settings [VISA, CACH ON DELIVERY]**
 
 ![image](https://github.com/user-attachments/assets/5f96f03a-32b9-4bd9-9e9b-0effd6370c46)
 
-#### Address Management [ Multiple Delivery address]
+- [ ]  **Address Management [ Multiple Delivery address]**
 
 ![image](https://github.com/user-attachments/assets/3c65e7dc-7319-4556-9356-5cf6a6cc5a4f)
 
-#### Account Deactivate
+- [ ]  **Account Deactivate**
 
 ![image](https://github.com/user-attachments/assets/dbb94e2f-340d-4e81-aac2-ff93b11807ce)
 
-#### Rating & comments
+- [ ]  **Rating & comments**
 
 ![image](https://github.com/user-attachments/assets/8d524086-fe69-4870-b968-382f5ae79ca8)
 
@@ -480,11 +480,11 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ### Payment Integration - Functions
 
-#### Payment integration With 3rd Party
+- [ ]  **Payment integration With 3rd Party**
 
 ![image](https://github.com/user-attachments/assets/65acddb5-d1e9-44b3-ac4d-d51b494a9723)
 
-#### Multiple payment methods
+- [ ]  **Multiple payment methods**
 
 ![image](https://github.com/user-attachments/assets/01babf81-ad40-441f-a92d-7a3313f4b966)
 
