@@ -202,7 +202,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 ![image](https://github.com/user-attachments/assets/bb04d0bd-d674-4570-abba-32ba4b180675)
 
 
-<hr><hr>
+<hr>
 
 ### Restaurant / Menu Management - Functions
 
@@ -258,7 +258,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/3847e021-a0eb-475c-8cbb-ddbf1c609f9e)
 
-<hr><hr>
+<hr>
 
 ### Order Management - Functions
 
@@ -286,7 +286,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/bef294a2-d1b4-40e2-bd53-8cf440867588)
 
-<hr><hr>
+<hr>
 
 ### Customer Management - Functions
 
@@ -314,7 +314,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/b38c68c2-24f8-475e-9fb6-239d8ca6dc96)
 
-<hr><hr>
+<hr>
 
 ### Payment Integration - Functions
 
@@ -326,8 +326,38 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/f80961eb-cd05-4e37-9ffd-a76e3a91b62e)
 
-#### View Payment Transactions
+<hr><hr>
 
-![image](https://github.com/user-attachments/assets/5da54fb1-5e8a-436d-84c7-9c27bed7d3d0)
+## Sequence
+
+### Cart Management - Functions
+
+#### Add to cart
+
+![image](https://github.com/user-attachments/assets/8d8784b7-456d-44ee-9e9b-f69a2db59d90)
+
+#### Modify cart
+
+![image](https://github.com/user-attachments/assets/fabebf1b-0757-47ff-9102-d254908ad487)
+
+#### View cart
+
+![image](https://github.com/user-attachments/assets/4869d2a0-fe35-4b0d-aac4-55e5a3f374a3)
+
+#### Clear all cart
+
+![image](https://github.com/user-attachments/assets/92304ad2-5825-47ab-aff1-f55d34065063)
+
+#### Remove the item from the cart
+
+![image](https://github.com/user-attachments/assets/ce32f04c-25d6-411f-a1c4-406846eec52c)
+
+#### Checkout
+
+![image](https://github.com/user-attachments/assets/1033435f-9222-44f3-b065-2a6a377e111f)
+
+#### Update Quantities
+
+![image](https://github.com/user-attachments/assets/b4d62f32-b58e-454d-9a75-1d21c55bee42)
 
 <hr><hr>
