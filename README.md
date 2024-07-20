@@ -450,3 +450,31 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 <hr><hr>
 
+### Customer Management - Functions
+
+#### List of Order History
+
+![image](https://github.com/user-attachments/assets/b30fc5de-b55c-42a2-b55e-c26cf00def09)
+
+#### Current order status tracking
+
+![image](https://github.com/user-attachments/assets/88815695-5344-4d0e-b3dd-75a35ccafd4a)
+
+#### Prefered Payment settings [VISA, CACH ON DELIVERY]
+
+![image](https://github.com/user-attachments/assets/5f96f03a-32b9-4bd9-9e9b-0effd6370c46)
+
+#### Address Management [ Multiple Delivery address]
+
+![image](https://github.com/user-attachments/assets/3c65e7dc-7319-4556-9356-5cf6a6cc5a4f)
+
+#### Account Deactivate
+
+![image](https://github.com/user-attachments/assets/dbb94e2f-340d-4e81-aac2-ff93b11807ce)
+
+#### Rating & comments
+
+![image](https://github.com/user-attachments/assets/8d524086-fe69-4870-b968-382f5ae79ca8)
+
+<hr><hr>
+
