@@ -73,7 +73,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
   - Search Restaurant [Filters]
   - Search Menu Items [Filters]
   - Top Rating Restaurants
-  -  Restaurants Recommendations
+  - Restaurants Recommendations
 
 ### Order Management - Functions
 * Database design
@@ -200,4 +200,63 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 #### Forget Password
 
 ![image](https://github.com/user-attachments/assets/bb04d0bd-d674-4570-abba-32ba4b180675)
+
+
+<hr><hr>
+
+### Restaurant / Menu Management - Functions
+
+#### Add restaurant
+
+![image](https://github.com/user-attachments/assets/7175e9e3-7e50-4ca5-be0b-c1929bb6cd36)
+
+#### Update restaurant
+
+![image](https://github.com/user-attachments/assets/eacc2e31-e7e6-40a7-a184-b5be9e70be5f)
+
+#### Enable/ Disable
+
+![image](https://github.com/user-attachments/assets/a26f237e-f3d8-4f26-abd2-d35d3c881db1)
+
+#### View all restaurants [customer]
+
+![image](https://github.com/user-attachments/assets/c935d23d-7477-4a82-9f8a-7d6f577f3841)
+
+#### Create a new menu
+
+![image](https://github.com/user-attachments/assets/8d025e0f-4b4a-4f54-a8dd-55f6f2cb330e)
+
+#### Update menu
+
+![image](https://github.com/user-attachments/assets/cdc06f73-18e5-4373-aa10-7c22f26298e9)
+
+#### Delete Menu
+
+![image](https://github.com/user-attachments/assets/c4a25753-363b-48bf-847e-406e6427c480)
+
+#### View menu History list [Restaurant]
+
+![image](https://github.com/user-attachments/assets/a7f2594e-79fd-473d-a595-a83eb315a5d7)
+
+#### View List of menus
+
+![image](https://github.com/user-attachments/assets/f1a07117-97f8-47ee-930f-7d89d15065c7)
+
+#### Search Restaurant [Filters]
+
+![image](https://github.com/user-attachments/assets/247a088c-ab71-425c-9320-2607769a4432)
+
+#### Search Menu Items [Filters]
+
+![image](https://github.com/user-attachments/assets/bb8930d3-52a8-42b6-bbe0-0001e3930bdb)
+
+#### Top Rating Restaurants
+
+![image](https://github.com/user-attachments/assets/97869a48-9b9a-4494-a2a8-64b59456632c)
+
+#### Restaurants Recommendations
+
+![image](https://github.com/user-attachments/assets/3847e021-a0eb-475c-8cbb-ddbf1c609f9e)
+
+<hr><hr>
 
