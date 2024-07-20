@@ -360,7 +360,7 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/b4d62f32-b58e-454d-9a75-1d21c55bee42)
 
-<hr><hr>
+<hr>
 
 
 ### User Registration & Authentication - Functions
@@ -377,4 +377,61 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 ![image](https://github.com/user-attachments/assets/db833934-96db-4e8c-a422-fc37645d8a4b)
 
-<hr><hr>
+<hr>
+
+### Restaurant / Menu Management - Functions
+
+#### Add restaurant
+
+![image](https://github.com/user-attachments/assets/6bc5ba6e-f4fb-4c39-a1b1-383f9fd441ac)
+
+#### Update restaurant
+
+![image](https://github.com/user-attachments/assets/877c0938-c4a7-4674-89d5-ee8a06bc5a68)
+
+#### Enable/ Disable
+
+![image](https://github.com/user-attachments/assets/2453e01b-0a8e-4b9e-9ebe-942d581807bc)
+
+#### View all restaurants [customer]
+
+![image](https://github.com/user-attachments/assets/a737e21a-cab5-4e92-a135-bea8fc50d4bb)
+
+#### Create a new menu
+
+![image](https://github.com/user-attachments/assets/40f49840-91dd-43c3-ada4-b3055d92de49)
+
+#### Update menu
+
+![image](https://github.com/user-attachments/assets/025f98ef-3c22-4926-98ee-a83a2f1ee9dd)
+
+#### Delete Menu
+
+![image](https://github.com/user-attachments/assets/7b193c17-e3de-4043-a32f-e723c3263467)
+
+#### View menu History list [Restaurant]
+
+![image](https://github.com/user-attachments/assets/ae3dbdb8-056b-4a7b-9a29-b78308d1d194)
+
+#### View List of menus
+
+![image](https://github.com/user-attachments/assets/dc2d7775-ba03-4c93-904c-91b76c8e8fdb)
+
+#### Search Restaurant [Filters]
+
+![image](https://github.com/user-attachments/assets/7f55ca97-361a-40fd-b0d9-9e70e633841d)
+
+#### Search Menu Items [Filters]
+
+![image](https://github.com/user-attachments/assets/7323831f-a04d-4330-8c4c-59af1f174e6f)
+
+#### Top Rating Restaurants
+
+![image](https://github.com/user-attachments/assets/19c72d21-1312-4702-8e55-118ce91b0ae1)
+
+#### Restaurants Recommendations
+
+![image](https://github.com/user-attachments/assets/eeaabd8b-9e0c-4f05-862a-ac28ede0b77f)
+
+<hr><ht>
+
