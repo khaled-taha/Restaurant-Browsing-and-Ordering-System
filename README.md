@@ -260,3 +260,30 @@ The Restaurant Browsing and Ordering System is a comprehensive application desig
 
 <hr><hr>
 
+### Order Management - Functions
+
+#### Place order
+
+![image](https://github.com/user-attachments/assets/1ed1148e-faa6-449e-a3ff-1c9d9e48989b)
+
+#### Orders canceled by customers or restaurants
+
+![image](https://github.com/user-attachments/assets/ca79c782-577b-4aba-8379-2c68e9adfc55)
+
+#### Order status update [Tracking]
+
+![image](https://github.com/user-attachments/assets/d068a027-876a-4283-b05d-baa5e2d24f7c)
+
+#### Order History [Customers, restaurants ]
+
+![image](https://github.com/user-attachments/assets/67e95969-fe8a-45c8-96ee-900a07505609)
+
+#### Order Summary
+
+![image](https://github.com/user-attachments/assets/3ec7df7d-ab35-4a5d-ae3b-e0255b4570e2)
+
+#### Order Details
+
+![image](https://github.com/user-attachments/assets/bef294a2-d1b4-40e2-bd53-8cf440867588)
+
+<hr><hr>
