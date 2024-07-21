@@ -17,7 +17,7 @@ Welcome to the **Restaurant Browsing and Ordering System**—an all-encompassing
 ![image](https://github.com/khaled-taha/Restaurant-Browsing-and-Ordering-System/assets/61011535/1aa044fa-b534-4c91-b221-19c5f44b7470)
 
 
-## Features
+# Section 1: Features
 
 ### Cart Management - Functions
 * **Database design**
@@ -153,7 +153,7 @@ Welcome to the **Restaurant Browsing and Ordering System**—an all-encompassing
   <hr><hr>
 
 
-## Flowchart
+# Section 2: Flowchart
 
 ### Cart Management - Functions
 
@@ -327,7 +327,7 @@ Welcome to the **Restaurant Browsing and Ordering System**—an all-encompassing
 
 <hr><hr>
 
-## Sequence
+# Section 3: Sequence
 
 ### Cart Management - Functions
 
@@ -487,5 +487,234 @@ Welcome to the **Restaurant Browsing and Ordering System**—an all-encompassing
 - [ ]  **Multiple payment methods**
 
 ![image](https://github.com/user-attachments/assets/01babf81-ad40-441f-a92d-7a3313f4b966)
+
+<hr><hr>
+
+# Section 4: DB Schema - API Reference
+
+## DB Design
+
+![image](https://github.com/user-attachments/assets/0e0f60c1-20ac-4b4d-8b17-b8a1fb5a0b45)
+
+## SQL
+
+```sql
+
+CREATE TABLE `Cart` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `user_id` INT NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (`user_id`) REFERENCES `user`(`id`)
+);
+
+CREATE TABLE `CartItem` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `cart_id` INT NOT NULL,
+  `menu_item_id` INT NOT NULL,
+  `quantity` INT NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (`cart_id`) REFERENCES `Cart`(`id`),
+  FOREIGN KEY (`menu_item_id`) REFERENCES `menu_item`(`id`)
+);
+
+```
+
+# API Reference
+
+### Add to Cart
+
+```https
+  POST /api/cart/add
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `user_id` | `string` | **Required**. User ID of the cart owner |
+| `menu_item_id` | `string` | **Required**.ID of the menu item to add |
+| `quantity` | `string` | **Required**. Quantity of the menu item |
+
+
+#### Request Body
+```json
+{
+  "user_id": "string",
+  "menu_item_id": "string",
+  "quantity": 0
+}
+
+```
+
+#### Response Body
+```json
+{
+  "status": "success",
+  "message": "Item added to cart successfully",
+  "cart_id": "string",
+  "cart_item_id": "string"
+}
+
+```
+
+<hr>
+
+
+### Modify Cart
+
+```https
+  PUT /api/cart/modify/{cartId}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| cartId    |	string |	Required. ID of the cart to modify|
+| menu_item_id |	string |	Required. ID of the menu item to modify |
+| quantity |	Integer |	Required. Updated quantity of the item|
+
+
+#### Request Body
+```json
+{
+  "menu_item_id": "string",
+  "quantity": 0
+}
+
+
+```
+
+#### Response Body
+```json
+{
+  "status": "success",
+  "message": "Cart modified successfully",
+  "cart_id": "string"
+}
+
+
+```
+
+<hr>
+
+### View Cart
+
+```https
+  GET /api/cart/{cartId}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|cartId |	string |	Required. ID of the cart to view |
+
+
+#### Response Body
+```json
+{
+  "cart_id": "string",
+  "items": [
+    {
+      "cart_item_id": "string",
+      "menu_item_id": "string",
+      "quantity": 0,
+      "menu_item_name": "Pizza",
+      "price": 10.00
+    }
+  ],
+  "total_price": 20.00
+}
+
+<hr>
+
+
+### Clear All Cart
+
+```https
+  DELETE /api/cart/clear/{cartId}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+|cartId |	string |	Required. ID of the cart to clear|
+
+
+#### Response Body
+```json
+{
+  "status": "success",
+  "message": "All items cleared from cart"
+}
+
+```
+
+<hr>
+
+
+### Checkout
+
+```https
+  POST /api/cart/checkout
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| user_id |	string |	Required. User ID of the cart owner |
+| payment_method |	string |	Required. Payment method used for checkout |
+| shipping_address |	string |	Required. Shipping address for the order |
+
+
+#### Request Body
+```json
+{
+  "user_id": "string",
+  "payment_method": "credit_card",
+  "shipping_address": "123 Main St, Anytown, USA"
+}
+
+```
+
+#### Response Body
+```json
+{
+  "status": "success",
+  "message": "Checkout completed successfully",
+  "order_id": "string",
+  "total_price": 20.00
+}
+
+```
+
+<hr>
+
+
+### Update Quantities
+
+```https
+  PATCH /api/cart/item/{cartItemId}/update
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| cartItemId |	string |	Required. ID of the cart item to update |
+| quantity |	Integer |	Required. New quantity of the item |
+
+
+#### Request Body
+```json
+{
+  "quantity": 4
+}
+
+```
+
+#### Response Body
+```json
+{
+  "status": "success",
+  "message": "Quantity updated successfully",
+  "cart_item_id": "string",
+  "new_quantity": 4
+}
+
+```
 
 <hr><hr>
