@@ -622,7 +622,7 @@ CREATE TABLE `CartItem` (
   ],
   "total_price": 20.00
 }
-
+```
 <hr>
 
 
