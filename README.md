@@ -531,16 +531,16 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `user_id` | `string` | **Required**. User ID of the cart owner |
-| `menu_item_id` | `string` | **Required**.ID of the menu item to add |
-| `quantity` | `string` | **Required**. Quantity of the menu item |
+| `customer_id` | Integer | **Required**. Customer ID of the cart owner |
+| `menu_item_id` | Integer | **Required**.ID of the menu item to add |
+| `quantity` | Integer | **Required**. Quantity of the menu item |
 
 
 #### Request Body
 ```json
 {
-  "user_id": "string",
-  "menu_item_id": "string",
+  "customer_id": 0,
+  "menu_item_id": 0,
   "quantity": 0
 }
 
@@ -551,8 +551,8 @@ CREATE TABLE `CartItem` (
 {
   "status": "success",
   "message": "Item added to cart successfully",
-  "cart_id": "string",
-  "cart_item_id": "string"
+  "cart_id": 0,
+  "cart_item_id": 0
 }
 
 ```
@@ -568,15 +568,15 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| cartId    |	string |	Required. ID of the cart to modify|
-| menu_item_id |	string |	Required. ID of the menu item to modify |
+| cartId    |	Integer |	Required. ID of the cart to modify|
+| menu_item_id |	Integer |	Required. ID of the menu item to modify |
 | quantity |	Integer |	Required. Updated quantity of the item|
 
 
 #### Request Body
 ```json
 {
-  "menu_item_id": "string",
+  "menu_item_id": 0,
   "quantity": 0
 }
 
@@ -588,7 +588,7 @@ CREATE TABLE `CartItem` (
 {
   "status": "success",
   "message": "Cart modified successfully",
-  "cart_id": "string"
+  "cart_id": 0
 }
 
 
@@ -604,17 +604,17 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-|cartId |	string |	Required. ID of the cart to view |
+|cartId |	Integer |	Required. ID of the cart to view |
 
 
 #### Response Body
 ```json
 {
-  "cart_id": "string",
+  "cart_id": 0,
   "items": [
     {
-      "cart_item_id": "string",
-      "menu_item_id": "string",
+      "cart_item_id": 0,
+      "menu_item_id": 0,
       "quantity": 0,
       "menu_item_name": "Pizza",
       "price": 10.00
@@ -634,7 +634,7 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-|cartId |	string |	Required. ID of the cart to clear|
+|cartId |	Integer |	Required. ID of the cart to clear|
 
 
 #### Response Body
@@ -657,7 +657,7 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| user_id |	string |	Required. User ID of the cart owner |
+| customer_id |	Integer |	Required. Customer ID of the cart owner |
 | payment_method |	string |	Required. Payment method used for checkout |
 | shipping_address |	string |	Required. Shipping address for the order |
 
@@ -665,7 +665,7 @@ CREATE TABLE `CartItem` (
 #### Request Body
 ```json
 {
-  "user_id": "string",
+  "customer_id": 0,
   "payment_method": "credit_card",
   "shipping_address": "123 Main St, Anytown, USA"
 }
@@ -677,7 +677,7 @@ CREATE TABLE `CartItem` (
 {
   "status": "success",
   "message": "Checkout completed successfully",
-  "order_id": "string",
+  "order_id": 0,
   "total_price": 20.00
 }
 
@@ -694,7 +694,7 @@ CREATE TABLE `CartItem` (
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| cartItemId |	string |	Required. ID of the cart item to update |
+| cartItemId | Integer |	Required. ID of the cart item to update |
 | quantity |	Integer |	Required. New quantity of the item |
 
 
@@ -711,7 +711,7 @@ CREATE TABLE `CartItem` (
 {
   "status": "success",
   "message": "Quantity updated successfully",
-  "cart_item_id": "string",
+  "cart_item_id": 0,
   "new_quantity": 4
 }
 
